@@ -1,0 +1,213 @@
+@media(max-width:2420px) {
+    .tableInner.tableInner2 .table-responsive .table td ul.vs:nth-child(2) span {
+        left: 23%;
+    }
+.dapibus {
+    padding-top: 9px;
+}
+    .ClickDot {
+    padding-top: 40px;
+}
+    .ozzAll{
+        padding-top: 125px;
+    }
+}
+
+@media(max-width:1920px) {
+    .tableInner.tableInner2 .table-responsive .table td ul.vs:nth-child(2) span {
+        left: 26%;
+    }
+    .dapibus {
+    padding-top: 10px;
+}
+}
+
+@media(max-width:1760px) {
+.tableInner.tableInner2 .table-responsive .table td ul.vs:nth-child(2) span {
+    left: 30%;
+}
+}
+
+@media(max-width:1367px) {
+    .tableInner.tableInner2 .table-responsive .table td ul.vs:nth-child(2) span {
+    left: 32%;
+}
+.ozzAlLeft {
+    width: 60%;
+}
+    .dapibus {
+    padding-top: 13px;
+}
+.ozzInner {
+        padding-top: 75px;
+}
+
+    .ozzIcon ul li {
+    margin-bottom: 40px;
+}
+    .ozzAlRight {
+    display: inline-block;
+    width: 36%;
+    margin-left: 0;
+    float: right;
+}
+        .ozzAll{
+        padding-top: 45px;
+    }
+}
+
+@media(max-width:1199px) {
+    .ozzIcon{
+        display: none;
+    }
+    .ozzAll {
+    padding: 45px 50px 85px 50px;
+}
+    .ozzAlLeft {
+    width: 100%;
+}
+    .serachNews{
+        display: none;
+    }
+    .ozzAlRight {
+    width: 100%;
+margin-top: 20px;
+}
+    .serachNews.serachNews2 {
+        display: inline-block;
+    position: relative;
+    margin-bottom: 8%;
+    width: 85%;
+    float: left;
+    margin-left: 40px;
+        margin-top: 0;
+}
+    .ozCust.ozCust2 ul li a {
+    font-size: 18px;
+}
+    .navIcon {
+        display: block;
+    right: 9%;
+    top: 18%;
+}
+    .ozzIcon {
+     display: inline-block; 
+        left: -113px;
+}
+    .ozzIcon ul {
+    padding-top: 100px;
+}
+    .widgetLower {
+    min-height: 100px;
+}
+
+}
+
+@media(max-width:991px) {
+    .ozzAll {
+    padding: 45px 35px 70px 35px;
+}
+
+    .serachNews.serachNews2 {
+    margin-left: 35px;
+}
+}
+
+@media(max-width:767px) {
+   
+    .ozzInner {
+    border-radius: 50px 50px 50px 50px;
+}
+    .scrollbar {
+    min-height: 295px;
+    height: 295px;
+
+}
+    .ozzLeft.ozzLeft2 .scrollbar {
+     height: 295px;
+}
+    .navIcon {
+    display: block;
+    right: 8%;
+}
+}
+
+@media(max-width:560px) {
+.serachNews .form-control {
+    padding: 10px 45px 10px 25px;
+}
+    .serachNews span {
+    padding: 12px;
+}
+
+    .tableHead {
+    display: block;
+            padding: 15px 10px;
+        
+}
+    .ozCust{
+        margin-top: 10px;
+    }
+    .tabOut {
+    padding: 15px 10px 30px;
+}
+    .tableInner {
+    padding: 10px;
+}
+    .scrollbar {
+    min-height: 250px;
+    height: 250px;
+}
+    .ozzLeft.ozzLeft2 .scrollbar {
+    height: 250px;
+}
+    .ozCust.ozCust2 ul li a {
+    font-size: 16px;
+}
+        .ozCust ul li a {
+    font-size: 16px;
+}
+    .fillterInner {
+    top: 50px;
+    right: -35px;
+}
+    .serachNews.serachNews2 {
+    margin-left: 25px;
+}
+    .serachNews.serachNews2 {
+    width: 75%;
+}
+    .navIcon {
+    display: block;
+    right: 6%;
+}
+    .ozzAll {
+    padding: 80px 20px 70px 20px;
+}
+}
+
+
+@media(max-width:414px) {
+.ozzAlLeft {
+    padding-left: 0px;
+}
+    .ozzInner {
+    padding-right: 0px;
+}
+    .ozzAlRight {
+    padding-left: 0px;
+}
+    .weatherBottom {
+    padding: 15px;
+}
+.fillterInner {
+    right: 55px;
+    top: 55px;
+}
+    .ozzAll {
+    padding: 45px 0px 50px 0px;
+}
+    .navIconup{
+        width: 300px;
+    }
+}

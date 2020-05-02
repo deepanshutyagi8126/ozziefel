@@ -1,0 +1,1013 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+@font-face {
+    font-family: 'GilroyBold';
+    src: url(../fonts/GilroyBold.ttf);
+}
+
+@font-face {
+    font-family: 'GilroyMedium';
+    src: url(../fonts/GilroyMedium.ttf);
+}
+
+:root {
+    /* Colors */
+    --grey: #292929;
+    --black: #0a0a0a;
+    --white: #fff;
+    --darkgrey: #262626;
+    --bordercolor: #737171f7;
+
+    /* Font Family */
+    --bold: 'GilroyBold';
+    --medium: 'GilroyMedium';
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.noleft {
+    padding-left: 0;
+}
+
+.noright {
+    padding-right: 0;
+}
+
+.nopadding {
+    padding: 0 !important;
+}
+
+button,
+a {
+    transition: all 0.35s ease 0s;
+}
+
+button:focus {
+    outline: none;
+}
+
+a {
+    outline: none !important;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    color: var(--white);
+    text-decoration: none;
+
+}
+
+.boxs {
+    float: left;
+    width: 100%;
+    display: block;
+}
+
+h2.head {
+    color: var(--white);
+    font-size: 24px;
+    font-family: var(--bold);
+}
+
+.btns:hover:before {
+    left: 0;
+}
+
+.nomargin {
+    margin: 0;
+}
+input[type=date]::-webkit-inner-spin-button,
+input[type=date]::-webkit-outer-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+.ozzAll {
+    background: var(--grey);
+    width: 100%;
+        background: var(--black);
+    width: 100%;
+    padding: 45px;
+
+}
+
+.ozzInner {
+    background: var(--black);
+    width: 100%;
+    float: left;
+
+    border-radius: 0px 0px 50px 0px;
+    padding-left: 0;
+}
+
+.ozzAlLeft {
+    width: 60%;
+    display: inline-block;
+}
+
+.ozzLeft {
+    width: 100%;
+    float: left;
+}
+
+.tableHead {
+    background: var(--grey);
+    padding: 25px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ozCust ul {
+    border: 1px solid var(--bordercolor);
+    display: inline-block;
+}
+
+.ozCust ul li {
+    display: inline-block;
+    border-right: 1px solid var(--bordercolor);
+    padding: 5px 10px;
+}
+
+.ozCust ul li a {
+    font-size: 18px;
+    color: var(--white);
+    font-family: var(--medium);
+}
+
+.tableInner {
+    padding: 15px;
+    padding-right: 30px;
+}
+
+.tableInner .table-responsive .table th {
+    color: var(--white);
+    font-size: 14px;
+    font-family: var(--bold);
+    background: var(--grey);
+    padding: 10px;
+    white-space: nowrap;
+    border: none;
+    border-right: 1px solid var(--bordercolor);
+}
+
+.tableInner .table-responsive .table td {
+    color: var(--white);
+    background: var(--black);
+    font-size: 14px;
+    font-family: var(--medium);
+    padding: 10px;
+    white-space: nowrap;
+    border: none;
+    border-right: 1px solid var(--bordercolor);
+}
+
+
+.scrollbar3::-webkit-scrollbar {
+    height: 6px;
+}
+
+.scrollbar3::-webkit-scrollbar-track-piece {
+    background: #ccc;
+    border-top: 6px solid #fff;
+    border-bottom: 6px solid #fff;
+    border-radius: 8px;
+}
+
+.scrollbar3::-webkit-scrollbar-track-piece:decrement {
+    background: #666;
+    border-top: 6px solid #666;
+    border-bottom: 6px solid #666;
+}
+
+.scrollbar3::-webkit-scrollbar-thumb {
+    background: #666;
+    border-radius: 8px;
+}
+
+.tableft {
+    background: var(--white);
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.tabDot {
+    background: var(--grey);
+    position: relative;
+    float: left;
+}
+
+.tableInner .table-responsive .table .tabDot td {
+    border: none;
+    height: 50px;
+}
+
+.tableInner .table-responsive .table .tabDot td a {
+    font-size: 14px;
+    color: var(--white);
+}
+
+.fillterInner {
+    display: none;
+    padding: 15px;
+    background: var(--grey);
+    position: absolute;
+    top: 42px;
+    right: -10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
+}
+.fillterInner..fillterInner1,.fillterInner..fillterInner2,.fillterInner..fillterInner3,.fillterInner..fillterInner4{
+    display: none;
+}
+
+.ozCust li.datePick a {
+    position: relative;
+}
+
+.dateBox.dateBox2 .form-control {
+    padding-left: 32px;
+    color: var(--white);
+    font-family: var(--medium);
+    border-color: var(--bordercolor);
+    background: #8080806b;
+}
+.dateBox.dateBox2 .form-control:focus{
+    border: 1px solid var(--bordercolor);
+    box-shadow: none;
+    outline: none;
+}
+
+.dateBox.dateBox2 span {
+    position: absolute;
+    top: 8px;
+    left: 6px;
+}
+
+.dateBox {
+    position: relative;
+}
+
+.tabdotIn {
+    position: absolute;
+}
+
+
+.scrollbar {
+    float: left;
+    min-height: 372px;
+    height: 375px;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.force-overflow {
+    min-height: 375px;
+}
+
+#wrapper {
+    text-align: center;
+    width: 500px;
+    margin: auto;
+}
+
+
+
+#style-4::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: var(--grey);
+}
+
+#style-4::-webkit-scrollbar {
+    width: 15px;
+    background-color: var(--grey);
+    border-radius: 10px;
+}
+
+#style-4::-webkit-scrollbar-thumb {
+    background-color: var(--grey);
+    border: 1px solid #555555;
+}
+
+.tabOut {
+    padding: 25px 15px 70px;
+    background: #1f1e1e;
+    float: left;
+    width: 100%;
+}
+
+.ozzLeft.ozzLeft2 {
+    margin-top: 25px;
+    float: left;
+}
+
+a.moneyIn {
+    font-size: 16px;
+    color: var(--white);
+    font-family: var(--bold);
+}
+
+a.moneyIn span {
+    padding-left: 5px;
+}
+
+.tableInner .table-responsive .table th.firstth {
+    border: 0px;
+}
+
+.tableInner.tableInner2 .table-responsive .table th {
+    padding: 16px 10px;
+}
+
+.tableInner.tableInner2 .table-responsive .table .blank td {
+    border: none;
+}
+
+.tableInner.tableInner2 .table-responsive .table td ul.vs li {
+    display: inline-block;
+}
+
+.tableInner.tableInner2 .table-responsive .table td ul.vs li:nth-child(2) {
+    padding: 0px 0px 0px 35px;
+}
+
+.tableInner.tableInner2 .table-responsive .table td ul.vs li:first-child {
+    padding: 0px 10px 0px 0px;
+}
+
+.tableInner.tableInner2 .table-responsive .table td ul.vs:first-child {
+    padding: 0px 20px 4px;
+    border-bottom: 1px solid var(--bordercolor);
+}
+
+.tableInner.tableInner2 .table-responsive .table td ul.vs:nth-child(2) {
+    padding: 4px 20px 0px;
+}
+
+ul.vs2 li {
+    text-align: center;
+}
+
+ul.vs2 li:first-child {
+    padding-bottom: 4px;
+}
+
+ul.vs2 li:nth-child(2) {
+    border-top: 1px solid var(--bordercolor);
+    padding-top: 4px;
+}
+
+.tableInner.tableInner2 .table-responsive .table td.nopadd {
+    padding: 10px 0px;
+}
+
+.tableInner.tableInner2 .table-responsive .table td ul.vs:nth-child(2) span {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 32%;
+    left: 32%;
+    background: var(--black);
+    width: 100%;
+    border: 1px solid var(--bordercolor);
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+.nopadd.nopadd2 {
+    position: relative;
+}
+
+.tableInner.tableInner2 .table-responsive .table td.onlyPad {
+    padding-top: 22px;
+    background: var(--grey);
+}
+
+.tableInner.tableInner2 .table-responsive .table td.nopadd {
+    background: var(--grey);
+}
+
+.tableInner.tableInner2 .table-responsive .table .allnew td {
+    border: none;
+}
+
+.tableInner.tableInner2 .table-responsive .table .allnew {
+    border-bottom: 2px solid var(--bordercolor);
+    position: relative;
+}
+
+.tableInner.tableInner2 .table-responsive .table .allnew td {
+    background: var(--black);
+    padding: 25px 0px 25px 25px;
+}
+
+.historyBtn {
+    padding: 10px 30px;
+    font-family: bold;
+    font-size: 18px;
+    background: var(--grey);
+    color: var(grey);
+    color: var(--white);
+    border-radius: 6px;
+}
+
+.historyBtn span {
+    padding-left: 5px;
+}
+
+.ozzLeft.ozzLeft2 .scrollbar {
+    height: 450px;
+    ;
+}
+
+.dotLeft {
+    background: var(--white);
+    padding: 1px 5px;
+    border-radius: 4px;
+}
+
+.dotRight ul {
+    background: var(--grey);
+    display: inline-block;
+    border-radius: 8px;
+}
+
+.dotRight ul li {
+    display: inline-block;
+}
+
+
+.dotRight ul li a {
+    color: var(--white);
+    padding: 6px 12px;
+    font-size: 14px;
+    float: left;
+}
+
+.tableInner .table-responsive .table .detailAll td {
+    padding: 15px 0px;
+    border-top: 1px solid var(--bordercolor);
+}
+
+.dotPlus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px;
+}
+
+.ozzAlRight {
+    display: inline-block;
+    width: 37%;
+    margin-left: 37px;
+    float: right;
+}
+
+.tableInner.tableInner3 .table-responsive .table th {
+    font-size: 12px;
+}
+
+.tableInner.tableInner3 .table-responsive .table td {
+    font-size: 12px;
+    padding: 15px;
+    border: 1px solid var(--bordercolor);
+}
+
+.tableInner.tableInner3 .table-responsive .table td a {
+    color: var(--white);
+    background: var(--grey);
+    border-radius: 10px;
+    padding: 6px 15px;
+}
+
+.ozHead ozHead2 h2 {
+    font-size: 18px;
+}
+
+.ozCust.ozCust2 ul li a {
+    font-size: 12px;
+}
+
+.ozCust.ozCust2 ul li {
+    padding: 2px 8px;
+}
+
+.ozCust.ozCust2 ul li:last-child {
+    padding-bottom: 4px;
+}
+
+.tabOut.tabOut2 {
+    padding: 20px;
+}
+
+.tableInner.tableInner3 {
+    padding: 0;
+    min-height: auto;
+}
+
+.scrollbar.scrollbar3 {
+    min-height: auto;
+    height: auto;
+    width: 100%;
+    overflow-y: auto;
+}
+
+.weatherBottom {
+    background: var(--grey);
+    padding: 25px;
+    width: 100%;
+    float: left;
+}
+
+.mapImg {
+    width: 100%;
+    height: 125px;
+}
+
+.mapImg iframe {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ozzLeft.ozzLeft4 {
+    margin-top: 25px;
+}
+
+.serachNews .form-control {
+    border-radius: 28px;
+    background: var(--white);
+    font-size: 18px;
+    font-family: var(--medium);
+    color: var(--grey);
+  padding: 16px 65px 16px 32px;
+    border: 0;
+}
+
+.serachNews {
+    position: relative;
+    margin-top: 7%;
+    margin-bottom: 18%;
+    width: 85%;
+    float: right;
+}
+
+.serachNews span {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: var(--black);
+    padding: 20px;
+    border-radius: 0px 0px 0px 40px;
+}
+
+.serachNews .form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.sidenavAll {
+    width: 200px;
+}
+
+.ozzIcon {
+    display: inline-block;
+    background: var(--grey);
+    height: 100%;
+    float: left;
+    position: fixed;
+        border-radius: 0px 100px 0px 0px;
+    left: 0;
+    top: 0;
+        padding: 0px 15px;
+    padding-top: 50px;
+}
+
+.ozzIcon ul li {
+    display: block;
+    margin-bottom: 50px;
+    padding: 10px 20px 10px 35px;
+}
+
+.ozzIcon ul li:last-child {
+    margin: 0;
+}
+.ozzIcon ul li a p{
+    display: none;
+}
+.profile {
+    width: 60px;
+    height: 60px;
+    position: relative;
+}
+.dotBlue{
+position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    right: 0;
+    bottom: 2px;
+    background: #00e8ff;
+}
+.dotGren{
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    right: 2px;
+    bottom: 2px;
+    background: #17a2b8c9; 
+}
+.profile img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.proContent p{
+    font-size: 12px;
+    color: var(--white);
+    font-family: var(--medium);
+    display: inline-block;
+    padding-left: 2px;
+    float: left;
+}
+.proContent h2{
+    font-size: 20px;
+    color: var(--white);
+    font-family: var(--bold);
+      display: inline-block;
+}
+.ozziconAll{
+    width: 70px;
+}
+.ozzIcon ul li a{
+    width: 28px;
+    height: 28px;
+    display: block;
+}
+.ozzIcon ul li a img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.ozzIcon ul{
+   padding-top: 160px;
+}
+.proContent{
+text-align: center;
+    padding-top: 15px;
+}
+.dotClickTab{
+    display: none;
+}
+.dotClickTab td{
+    padding: 15px 0px;
+}
+.ClickDot ul li{
+background: var(--white);
+    width: 3px;
+    height: 60px;
+    border-radius: 10%;
+       display: inline-block;
+    position: relative;
+}
+.ClickDot ul li:nth-child(2){
+    margin: 0px 10px;
+}
+.cpink{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #bd2130;
+    position: absolute;
+    left: -4px;
+    top: -1px;
+}
+.cyellow{
+     width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #d39e00;
+    position: absolute;
+    left: -4px;
+    top: 25px;  
+}
+.cgreen{
+       width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #1e7e34;
+    position: absolute;
+    left: -4px;
+   bottom: 0;   
+}
+.ClickDot {
+    display: inline-block;
+    float: left;
+    padding-top: 45px;
+}
+.dapibus {
+    display: inline-block;
+    float: left;
+    padding-top: 13px;
+}
+.dapibus ul{
+    border-radius: 20px;
+       border: 1px solid var(--bordercolor);
+            background: var(--grey);
+        margin: 0px 15px;
+}
+.dapibus ul li:last-child{
+    border-bottom: none;
+}
+.dapibus ul li{
+    padding: 10px 40px;
+    display: block;
+    font-size: 12px;
+    border: 0px;
+    border-bottom: 1px solid var(--bordercolor);
+}
+.finalFirst ul li{
+    display: inline-block;
+}
+.tableInner .table-responsive .table .dotClickTab td{
+    padding: 0px 0px;
+    border:0; 
+    border-top: 1px solid var(--bordercolor);
+      border-bottom: 1px solid var(--bordercolor);
+}
+.finalAl{
+    border: 1px solid var(--bordercolor);
+    border-top: 0;
+    border-bottom: 0;
+}
+.finalAl ul {
+    border-bottom: 1px solid var(--bordercolor);
+    border-top: 0;
+    padding: 6px 8px;
+}
+.finalFirst ul li:nth-child(2){
+ margin: 0 20px 0px 50px;
+}
+.finalFirst.finalSecond ul {
+    padding: 6px 8px;
+}
+.finalFirst.finalFirst2 ul li:first-child{
+    padding-left: 6px;
+}
+.finalFirst ul li span{
+    display: inline-block;
+    padding-right: 10px;
+}
+.finalFirst ul li span:last-child{
+    padding-right: 0;
+}
+.finalAl{
+    display: inline-block;
+    float: left;
+}
+.finalFirst.finalSecond ul li span.filImg{
+width: 35px;
+    height: 25px;
+    margin-top: 8px;
+    float: left;
+}
+.finalFirst.finalSecond ul li span.filImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.finalFirst.finalThird ul li span.filImg{
+width: 35px;
+    height: 25px;
+    margin-top: 8px;
+    float: left;
+}
+.finalFirst.finalFirst2 ul li:nth-child(2) {
+    margin-left: 125px;
+}
+.finalFirst.finalThird ul li span.filImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.topPerformance ul li{
+    display: block;
+}
+.topPerformance{
+    display: inline-block;
+}
+.topPerformance ul li{
+    display: block;
+}
+.topPerformance ul li span{
+    display: inline-block;
+}
+.gustBtn{
+
+    display: inline-block;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+.gustBtn ul li a {
+    display: block;
+    color: var(--white);
+    background: var(--grey);
+    padding: 5px 15px;
+    border-radius: 12px;
+}
+.gustBtn ul li{
+    padding: 5px 0px;
+}
+
+.hisShow.hisShow1{
+    display: none;
+        border-bottom: 2px solid var(--bordercolor);
+}
+.hisShow.hisShow2{
+    display: none;
+      border-bottom: 2px solid var(--bordercolor);
+}
+.hisShow span.HistPop{
+padding: 10px 100px 10px 40px;
+    background: var(--grey);
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+.tableInner.tableInner2 .table-responsive .table .blank td.histroyTd{
+      padding: 10px 85px;  
+}
+.ClickDot ul{
+    padding: 0px 25px;
+}
+.serachNews.serachNews2{
+    display: none;
+}
+
+.navIcon {
+    position: absolute;
+    display: block;
+    height: 3px;
+    width: 30px;
+    right: 5%;
+    top: 5%;
+    background: var(--white);
+    transition-duration: 0.075s;
+    transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+.navIcon::before {
+    position: absolute;
+    content: '';
+    top: -8px;
+    left: 0;
+    height: 3px;
+    width: 30px;
+    background: var(--white);
+    transition: all 0.3s ease;
+}
+.navIcon::after {
+    position: absolute;
+    content: '';
+    top: 8px;
+    left: 0;
+    height: 3px;
+    width: 30px;
+    background: var(--white);
+    opacity: 1;
+    transition: top 0.075s ease, opacity 0.075s 0.12s ease;
+}
+.navactive.navIcon {
+    transform: rotate(45deg);
+    transition-delay: 0.12s;
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.navactive.navIcon:before {
+    top: 0;
+    opacity: 0;
+    transition: top 0.075s ease, opacity 0.075s 0.12s ease;
+}
+.navactive.navIcon::after {
+    top: 0px;
+    transform: rotate(-90deg);
+    transition: bottom 0.075s ease, transform 0.075s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.showw{
+    display: none;
+    color: var(--white);
+    font-size: 18px;
+    transform: rotate(-90deg);
+}
+.ozzIcon ul li a:hover .hide,.ozzIcon ul li a:focus .hide{
+    display: none;
+}
+.ozzIcon ul li a:hover .showw,.ozzIcon ul li a:focus .showw{
+    display: block;
+}
+.ozCust{
+    position: relative;
+}
+
+
+
+/*new scrollbar*/
+
+.scrollbarnew {
+    float: left;
+    min-width: 100%;
+    width: 100%;
+    height: 100%;
+    overflow-x: scroll;
+}
+
+.force-overflownew {
+    min-width:600px;
+}
+
+#wrappernew {
+    text-align: center;
+    width: 500px;
+    margin: auto;
+}
+
+
+
+#style-41::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: var(--grey);
+}
+
+#style-41::-webkit-scrollbar {
+    width: 15px;
+    background-color: var(--grey);
+    border-radius: 10px;
+}
+
+#style-41::-webkit-scrollbar-thumb {
+    background-color: var(--grey);
+    border: 1px solid #555555;
+}
+.table-responsive.tabres{
+    overflow-x: initial;
+}
+.scrollbarnew.scrollbarnew2{
+width: 100%;
+    min-width: 100%;
+    height: auto;
+}
+.navIconup a i{
+    font-size: 32px;
+    color: var(--white);
+    float: right;
+    position: absolute;
+    left: -50px;
+    padding: 15px;
+    background: var(--grey);
+    top: 25px;
+}
+.navIconup{
+position: fixed;
+right: -300px;
+top: 0;
+width: 320px;
+background: var(--grey);
+z-index: 999;
+padding: 45px 20px 0px;
+height: 100%;
+}
+
+.widgetUp{
+    min-height: 35px;
+    border: 1px solid var(--bordercolor);
+    width: 100%;
+}
+.widgetLower{
+    min-height: 125px;
+        border: 1px solid var(--bordercolor);
+    width: 100%;
+}
+
+.widgetInner:nth-child(2){
+ margin: 45px 0px;
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2100" data-name="Rectangle 2100" width="48" height="48" transform="translate(16545 4234)" fill="#989898"/>
+    </clipPath>
+  </defs>
+  <g id="Cloud" transform="translate(-16545 -4234)" clip-path="url(#clip-path)">
+    <path id="cloud-2" data-name="cloud" d="M42.782,24.943c0-.129.021-.257.021-.386A12.6,12.6,0,0,0,30.289,12,12.465,12.465,0,0,0,19.1,19.179a6.305,6.305,0,0,0-2.871-.686,6.615,6.615,0,0,0-6.311,5.571,9.463,9.463,0,0,0-6.493,8.979,9.762,9.762,0,0,0,9.6,9.814H42.643a9.012,9.012,0,0,0,8.786-9.032,8.736,8.736,0,0,0-8.646-8.882Z" transform="translate(16541.572 4230.571)" fill="#989898"/>
+  </g>
+</svg>
